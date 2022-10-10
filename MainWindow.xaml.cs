@@ -24,5 +24,11 @@ namespace WpfApp1_Практическая_5_ГК
         {
             InitializeComponent();
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            MenuItem menuItem = (MenuItem)sender;
+            MessageBox.Show(menuItem.Header.ToString());
+        }
     }
 }

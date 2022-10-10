@@ -7,18 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Menu Height="25" VerticalAlignment="Top">
-            <MenuItem Header="File">
-                <MenuItem Header="New Project" ></MenuItem>
-                <MenuItem Header="Open Project" >
-                    <MenuItem Header="WinForms"></MenuItem>
-                    <MenuItem Header="WPF" ></MenuItem>
-                </MenuItem>
-                <Separator />
-                <MenuItem Header="Exit" ></MenuItem>
+        <Menu Background="White" BorderBrush="Navy" BorderThickness="1">
+                <MenuItem Header="_Рисунки">
+                <MenuItem Header="_Котик № 1" <Image Source="Без названия " />
+
+                    <MenuItem Header="_Котик № 2"/>
+                <MenuItem Header="_Котик № 3"/>
             </MenuItem>
-            <MenuItem Header="Edit" ></MenuItem>
-            <MenuItem Header="View" ></MenuItem>
         </Menu>
+
     </Grid>
 </Window>
